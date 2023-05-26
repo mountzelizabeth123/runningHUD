@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0790ECEA2A2030B300C16830 /* hatHUDApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0790ECE92A2030B300C16830 /* hatHUDApp.swift */; };
+		0790ECEC2A2030B300C16830 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0790ECEB2A2030B300C16830 /* ContentView.swift */; };
+		0790ECEE2A2030B400C16830 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0790ECED2A2030B400C16830 /* Assets.xcassets */; };
+		0790ECF22A2030B400C16830 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0790ECF12A2030B400C16830 /* Preview Assets.xcassets */; };
+		0790ECFC2A2030B500C16830 /* hatHUDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0790ECFB2A2030B500C16830 /* hatHUDTests.swift */; };
+		0790ED062A2030B500C16830 /* hatHUDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0790ED052A2030B500C16830 /* hatHUDUITests.swift */; };
+		0790ED082A2030B500C16830 /* hatHUDUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0790ED072A2030B500C16830 /* hatHUDUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0790ECF82A2030B500C16830 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0790ECDE2A2030B300C16830 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0790ECE52A2030B300C16830;
+			remoteInfo = hatHUD;
+		};
+		0790ED022A2030B500C16830 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0790ECDE2A2030B300C16830 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0790ECE52A2030B300C16830;
+			remoteInfo = hatHUD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0790ECE62A2030B300C16830 /* hatHUD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hatHUD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0790ECE92A2030B300C16830 /* hatHUDApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hatHUDApp.swift; sourceTree = "<group>"; };
+		0790ECEB2A2030B300C16830 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0790ECED2A2030B400C16830 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0790ECEF2A2030B400C16830 /* hatHUD.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = hatHUD.entitlements; sourceTree = "<group>"; };
+		0790ECF12A2030B400C16830 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0790ECF72A2030B500C16830 /* hatHUDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hatHUDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0790ECFB2A2030B500C16830 /* hatHUDTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hatHUDTests.swift; sourceTree = "<group>"; };
+		0790ED012A2030B500C16830 /* hatHUDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hatHUDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0790ED052A2030B500C16830 /* hatHUDUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hatHUDUITests.swift; sourceTree = "<group>"; };
+		0790ED072A2030B500C16830 /* hatHUDUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hatHUDUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0790ECE32A2030B300C16830 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0790ECF42A2030B500C16830 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0790ECFE2A2030B500C16830 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0790ECDD2A2030B300C16830 = {
+			isa = PBXGroup;
+			children = (
+				0790ECE82A2030B300C16830 /* hatHUD */,
+				0790ECFA2A2030B500C16830 /* hatHUDTests */,
+				0790ED042A2030B500C16830 /* hatHUDUITests */,
+				0790ECE72A2030B300C16830 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0790ECE72A2030B300C16830 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0790ECE62A2030B300C16830 /* hatHUD.app */,
+				0790ECF72A2030B500C16830 /* hatHUDTests.xctest */,
+				0790ED012A2030B500C16830 /* hatHUDUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0790ECE82A2030B300C16830 /* hatHUD */ = {
+			isa = PBXGroup;
+			children = (
+				0790ECE92A2030B300C16830 /* hatHUDApp.swift */,
+				0790ECEB2A2030B300C16830 /* ContentView.swift */,
+				0790ECED2A2030B400C16830 /* Assets.xcassets */,
+				0790ECEF2A2030B400C16830 /* hatHUD.entitlements */,
+				0790ECF02A2030B400C16830 /* Preview Content */,
+			);
+			path = hatHUD;
+			sourceTree = "<group>";
+		};
+		0790ECF02A2030B400C16830 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0790ECF12A2030B400C16830 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0790ECFA2A2030B500C16830 /* hatHUDTests */ = {
+			isa = PBXGroup;
+			children = (
+				0790ECFB2A2030B500C16830 /* hatHUDTests.swift */,
+			);
+			path = hatHUDTests;
+			sourceTree = "<group>";
+		};
+		0790ED042A2030B500C16830 /* hatHUDUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0790ED052A2030B500C16830 /* hatHUDUITests.swift */,
+				0790ED072A2030B500C16830 /* hatHUDUITestsLaunchTests.swift */,
+			);
+			path = hatHUDUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0790ECE52A2030B300C16830 /* hatHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0790ED0B2A2030B500C16830 /* Build configuration list for PBXNativeTarget "hatHUD" */;
+			buildPhases = (
+				0790ECE22A2030B300C16830 /* Sources */,
+				0790ECE32A2030B300C16830 /* Frameworks */,
+				0790ECE42A2030B300C16830 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hatHUD;
+			productName = hatHUD;
+			productReference = 0790ECE62A2030B300C16830 /* hatHUD.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0790ECF62A2030B500C16830 /* hatHUDTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0790ED0E2A2030B500C16830 /* Build configuration list for PBXNativeTarget "hatHUDTests" */;
+			buildPhases = (
+				0790ECF32A2030B500C16830 /* Sources */,
+				0790ECF42A2030B500C16830 /* Frameworks */,
+				0790ECF52A2030B500C16830 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0790ECF92A2030B500C16830 /* PBXTargetDependency */,
+			);
+			name = hatHUDTests;
+			productName = hatHUDTests;
+			productReference = 0790ECF72A2030B500C16830 /* hatHUDTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0790ED002A2030B500C16830 /* hatHUDUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0790ED112A2030B500C16830 /* Build configuration list for PBXNativeTarget "hatHUDUITests" */;
+			buildPhases = (
+				0790ECFD2A2030B500C16830 /* Sources */,
+				0790ECFE2A2030B500C16830 /* Frameworks */,
+				0790ECFF2A2030B500C16830 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0790ED032A2030B500C16830 /* PBXTargetDependency */,
+			);
+			name = hatHUDUITests;
+			productName = hatHUDUITests;
+			productReference = 0790ED012A2030B500C16830 /* hatHUDUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0790ECDE2A2030B300C16830 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					0790ECE52A2030B300C16830 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					0790ECF62A2030B500C16830 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 0790ECE52A2030B300C16830;
+					};
+					0790ED002A2030B500C16830 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 0790ECE52A2030B300C16830;
+					};
+				};
+			};
+			buildConfigurationList = 0790ECE12A2030B300C16830 /* Build configuration list for PBXProject "hatHUD" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0790ECDD2A2030B300C16830;
+			productRefGroup = 0790ECE72A2030B300C16830 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0790ECE52A2030B300C16830 /* hatHUD */,
+				0790ECF62A2030B500C16830 /* hatHUDTests */,
+				0790ED002A2030B500C16830 /* hatHUDUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0790ECE42A2030B300C16830 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0790ECF22A2030B400C16830 /* Preview Assets.xcassets in Resources */,
+				0790ECEE2A2030B400C16830 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0790ECF52A2030B500C16830 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0790ECFF2A2030B500C16830 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0790ECE22A2030B300C16830 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0790ECEC2A2030B300C16830 /* ContentView.swift in Sources */,
+				0790ECEA2A2030B300C16830 /* hatHUDApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0790ECF32A2030B500C16830 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0790ECFC2A2030B500C16830 /* hatHUDTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0790ECFD2A2030B500C16830 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0790ED082A2030B500C16830 /* hatHUDUITestsLaunchTests.swift in Sources */,
+				0790ED062A2030B500C16830 /* hatHUDUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0790ECF92A2030B500C16830 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0790ECE52A2030B300C16830 /* hatHUD */;
+			targetProxy = 0790ECF82A2030B500C16830 /* PBXContainerItemProxy */;
+		};
+		0790ED032A2030B500C16830 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0790ECE52A2030B300C16830 /* hatHUD */;
+			targetProxy = 0790ED022A2030B500C16830 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0790ED092A2030B500C16830 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0790ED0A2A2030B500C16830 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		0790ED0C2A2030B500C16830 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = hatHUD/hatHUD.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"hatHUD/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = displaytech.hatHUD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0790ED0D2A2030B500C16830 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = hatHUD/hatHUD.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"hatHUD/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = displaytech.hatHUD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0790ED0F2A2030B500C16830 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = displaytech.hatHUDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hatHUD.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/hatHUD";
+			};
+			name = Debug;
+		};
+		0790ED102A2030B500C16830 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = displaytech.hatHUDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hatHUD.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/hatHUD";
+			};
+			name = Release;
+		};
+		0790ED122A2030B500C16830 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = displaytech.hatHUDUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = hatHUD;
+			};
+			name = Debug;
+		};
+		0790ED132A2030B500C16830 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = displaytech.hatHUDUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = hatHUD;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0790ECE12A2030B300C16830 /* Build configuration list for PBXProject "hatHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0790ED092A2030B500C16830 /* Debug */,
+				0790ED0A2A2030B500C16830 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0790ED0B2A2030B500C16830 /* Build configuration list for PBXNativeTarget "hatHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0790ED0C2A2030B500C16830 /* Debug */,
+				0790ED0D2A2030B500C16830 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0790ED0E2A2030B500C16830 /* Build configuration list for PBXNativeTarget "hatHUDTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0790ED0F2A2030B500C16830 /* Debug */,
+				0790ED102A2030B500C16830 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0790ED112A2030B500C16830 /* Build configuration list for PBXNativeTarget "hatHUDUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0790ED122A2030B500C16830 /* Debug */,
+				0790ED132A2030B500C16830 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0790ECDE2A2030B300C16830 /* Project object */;
+}
