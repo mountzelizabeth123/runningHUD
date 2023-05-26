@@ -7,11 +7,12 @@
 
 import SwiftUI
 
+
 @main
 struct hatHUDApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TestView()
         }
     }
 }

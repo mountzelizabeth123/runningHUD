@@ -14,6 +14,7 @@
 		0790ECFC2A2030B500C16830 /* hatHUDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0790ECFB2A2030B500C16830 /* hatHUDTests.swift */; };
 		0790ED062A2030B500C16830 /* hatHUDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0790ED052A2030B500C16830 /* hatHUDUITests.swift */; };
 		0790ED082A2030B500C16830 /* hatHUDUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0790ED072A2030B500C16830 /* hatHUDUITestsLaunchTests.swift */; };
+		0790ED172A20368100C16830 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0790ED162A20368100C16830 /* File.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		0790ED012A2030B500C16830 /* hatHUDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hatHUDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0790ED052A2030B500C16830 /* hatHUDUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hatHUDUITests.swift; sourceTree = "<group>"; };
 		0790ED072A2030B500C16830 /* hatHUDUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hatHUDUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0790ED162A20368100C16830 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				0790ECED2A2030B400C16830 /* Assets.xcassets */,
 				0790ECEF2A2030B400C16830 /* hatHUD.entitlements */,
 				0790ECF02A2030B400C16830 /* Preview Content */,
+				0790ED162A20368100C16830 /* File.swift */,
 			);
 			path = hatHUD;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0790ECEC2A2030B300C16830 /* ContentView.swift in Sources */,
+				0790ED172A20368100C16830 /* File.swift in Sources */,
 				0790ECEA2A2030B300C16830 /* hatHUDApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -435,10 +439,12 @@
 				PRODUCT_BUNDLE_IDENTIFIER = displaytech.hatHUD;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -471,10 +477,12 @@
 				PRODUCT_BUNDLE_IDENTIFIER = displaytech.hatHUD;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
