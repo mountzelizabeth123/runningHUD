@@ -31,6 +31,7 @@
 import UIKit
 import CoreBluetooth
 let heartRateServiceCBUUID = CBUUID(string: "0xFFE0")
+let desiredCharacteristic = CBUUID(string: "0xFFE1")
 
 class HRMViewController: UIViewController {
 
@@ -115,6 +116,14 @@ extension HRMViewController: CBPeripheralDelegate {
       if characteristic.properties.contains(.write) {
         print("\(characteristic.uuid): properties contains .write")
       }
+      if characteristic.properties.contains(.writeWithoutResponse) {
+        print("\(characteristic.uuid): properties contains .writeWithoutResponse")
+//        var parameter = NSString("abc")
+//        let data = NSData(bytes: &parameter, length: 3)
+        let testvar = "test script"
+        let data = testvar.data(using: .ascii)
+        peripheral.writeValue(data!, for: characteristic, type: CBCharacteristicWriteType.withoutResponse)
+      }
       peripheral.readValue(for: characteristic)
 
     }
@@ -129,9 +138,39 @@ extension HRMViewController: CBPeripheralDelegate {
         print("Unhandled Characteristic UUID: \(characteristic.uuid)")
     }
   }
-
+  
+  /// Called when .withResponse is used.
+  func peripheral(_ peripheral: CBPeripheral,
+          didWriteValueFor characteristic: CBCharacteristic, error: Error?) {
+      if let error = error {
+          print("Error writing to characteristic: \(error)")
+          return
+      }
+  }
+  
+  
+//  func write(data: Data) {
+//    let characteristic = desiredCharacteristic
+//
+//    let data = "abc"
+//
+//    peripheral.writeValue(data, for: characteristic, type: .withoutResponse)
+//  }
+  
+  /// Write data to the peripheral.
+//  func centralManager(write)
+//  func write(data: Data) {
+//      let characteristic = desiredCharacteristic
+//      peripheral.writeValue(data, for: characteristic, type: .withoutResponse)
+//      // .withResponse is more expensive but gives you confirmation.
+//      // It's an exercise for the reader to ask for a response and handle
+//      // timeouts waiting for said response.
+//      // I found it simpler to deal with that at a higher level in a
+//      // messaging framework.
+//  }
 
 }
 
 //updated up to "Obtaining the Body Sensor Location"
 //tutorial //https://www.kodeco.com/231-core-bluetooth-tutorial-for-ios-heart-rate-monitor
+
